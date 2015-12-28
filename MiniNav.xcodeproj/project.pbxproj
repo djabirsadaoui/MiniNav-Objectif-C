@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3550B6851C314573009FF85B /* MiniNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3550B6841C314573009FF85B /* MiniNavView.m */; };
+		D638D77719FEB9A900719CED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D638D77619FEB9A900719CED /* main.m */; };
+		D638D77A19FEB9A900719CED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D638D77919FEB9A900719CED /* AppDelegate.m */; };
+		D638D77D19FEB9A900719CED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D638D77C19FEB9A900719CED /* ViewController.m */; };
+		D638D78019FEB9A900719CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D638D77E19FEB9A900719CED /* Main.storyboard */; };
+		D638D78219FEB9A900719CED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D638D78119FEB9A900719CED /* Images.xcassets */; };
+		D638D78519FEB9A900719CED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D638D78319FEB9A900719CED /* LaunchScreen.xib */; };
+		D638D79119FEB9A900719CED /* MiniNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D638D79019FEB9A900719CED /* MiniNavTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D638D78B19FEB9A900719CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D638D76919FEB9A800719CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D638D77019FEB9A900719CED;
+			remoteInfo = MiniNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3550B6831C314573009FF85B /* MiniNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniNavView.h; sourceTree = "<group>"; };
+		3550B6841C314573009FF85B /* MiniNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniNavView.m; sourceTree = "<group>"; };
+		D638D77119FEB9A900719CED /* MiniNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D638D77519FEB9A900719CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D638D77619FEB9A900719CED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D638D77819FEB9A900719CED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D638D77919FEB9A900719CED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D638D77B19FEB9A900719CED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D638D77C19FEB9A900719CED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D638D77F19FEB9A900719CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D638D78119FEB9A900719CED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D638D78419FEB9A900719CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D638D78A19FEB9A900719CED /* MiniNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D638D78F19FEB9A900719CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D638D79019FEB9A900719CED /* MiniNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniNavTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D638D76E19FEB9A900719CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D638D78719FEB9A900719CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3550B6811C31406B009FF85B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D638D77819FEB9A900719CED /* AppDelegate.h */,
+				D638D77919FEB9A900719CED /* AppDelegate.m */,
+				D638D77B19FEB9A900719CED /* ViewController.h */,
+				D638D77C19FEB9A900719CED /* ViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		3550B6821C314078009FF85B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3550B6831C314573009FF85B /* MiniNavView.h */,
+				3550B6841C314573009FF85B /* MiniNavView.m */,
+				D638D77E19FEB9A900719CED /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		D638D76819FEB9A800719CED = {
+			isa = PBXGroup;
+			children = (
+				D638D77319FEB9A900719CED /* MiniNav */,
+				D638D78D19FEB9A900719CED /* MiniNavTests */,
+				D638D77219FEB9A900719CED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D638D77219FEB9A900719CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D638D77119FEB9A900719CED /* MiniNav.app */,
+				D638D78A19FEB9A900719CED /* MiniNavTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D638D77319FEB9A900719CED /* MiniNav */ = {
+			isa = PBXGroup;
+			children = (
+				3550B6821C314078009FF85B /* view */,
+				3550B6811C31406B009FF85B /* controller */,
+				D638D78119FEB9A900719CED /* Images.xcassets */,
+				D638D78319FEB9A900719CED /* LaunchScreen.xib */,
+				D638D77419FEB9A900719CED /* Supporting Files */,
+			);
+			path = MiniNav;
+			sourceTree = "<group>";
+		};
+		D638D77419FEB9A900719CED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D638D77519FEB9A900719CED /* Info.plist */,
+				D638D77619FEB9A900719CED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D638D78D19FEB9A900719CED /* MiniNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				D638D79019FEB9A900719CED /* MiniNavTests.m */,
+				D638D78E19FEB9A900719CED /* Supporting Files */,
+			);
+			path = MiniNavTests;
+			sourceTree = "<group>";
+		};
+		D638D78E19FEB9A900719CED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D638D78F19FEB9A900719CED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D638D77019FEB9A900719CED /* MiniNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D638D79419FEB9A900719CED /* Build configuration list for PBXNativeTarget "MiniNav" */;
+			buildPhases = (
+				D638D76D19FEB9A900719CED /* Sources */,
+				D638D76E19FEB9A900719CED /* Frameworks */,
+				D638D76F19FEB9A900719CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniNav;
+			productName = MiniNav;
+			productReference = D638D77119FEB9A900719CED /* MiniNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D638D78919FEB9A900719CED /* MiniNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D638D79719FEB9A900719CED /* Build configuration list for PBXNativeTarget "MiniNavTests" */;
+			buildPhases = (
+				D638D78619FEB9A900719CED /* Sources */,
+				D638D78719FEB9A900719CED /* Frameworks */,
+				D638D78819FEB9A900719CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D638D78C19FEB9A900719CED /* PBXTargetDependency */,
+			);
+			name = MiniNavTests;
+			productName = MiniNavTests;
+			productReference = D638D78A19FEB9A900719CED /* MiniNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D638D76919FEB9A800719CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = m2sar;
+				TargetAttributes = {
+					D638D77019FEB9A900719CED = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = MRV7A6DFL3;
+					};
+					D638D78919FEB9A900719CED = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D638D77019FEB9A900719CED;
+					};
+				};
+			};
+			buildConfigurationList = D638D76C19FEB9A800719CED /* Build configuration list for PBXProject "MiniNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D638D76819FEB9A800719CED;
+			productRefGroup = D638D77219FEB9A900719CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D638D77019FEB9A900719CED /* MiniNav */,
+				D638D78919FEB9A900719CED /* MiniNavTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D638D76F19FEB9A900719CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D638D78019FEB9A900719CED /* Main.storyboard in Resources */,
+				D638D78519FEB9A900719CED /* LaunchScreen.xib in Resources */,
+				D638D78219FEB9A900719CED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D638D78819FEB9A900719CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D638D76D19FEB9A900719CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D638D77D19FEB9A900719CED /* ViewController.m in Sources */,
+				3550B6851C314573009FF85B /* MiniNavView.m in Sources */,
+				D638D77A19FEB9A900719CED /* AppDelegate.m in Sources */,
+				D638D77719FEB9A900719CED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D638D78619FEB9A900719CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D638D79119FEB9A900719CED /* MiniNavTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D638D78C19FEB9A900719CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D638D77019FEB9A900719CED /* MiniNav */;
+			targetProxy = D638D78B19FEB9A900719CED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D638D77E19FEB9A900719CED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D638D77F19FEB9A900719CED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D638D78319FEB9A900719CED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D638D78419FEB9A900719CED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D638D79219FEB9A900719CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D638D79319FEB9A900719CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D638D79519FEB9A900719CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MiniNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sadaoui.com.MiniNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D638D79619FEB9A900719CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MiniNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sadaoui.com.MiniNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D638D79819FEB9A900719CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniNav.app/MiniNav";
+			};
+			name = Debug;
+		};
+		D638D79919FEB9A900719CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniNav.app/MiniNav";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D638D76C19FEB9A800719CED /* Build configuration list for PBXProject "MiniNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D638D79219FEB9A900719CED /* Debug */,
+				D638D79319FEB9A900719CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D638D79419FEB9A900719CED /* Build configuration list for PBXNativeTarget "MiniNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D638D79519FEB9A900719CED /* Debug */,
+				D638D79619FEB9A900719CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D638D79719FEB9A900719CED /* Build configuration list for PBXNativeTarget "MiniNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D638D79819FEB9A900719CED /* Debug */,
+				D638D79919FEB9A900719CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D638D76919FEB9A800719CED /* Project object */;
+}
